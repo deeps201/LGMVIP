@@ -1,0 +1,52 @@
+.App
+{
+    background-color: black;
+}
+.button
+{
+    margin:10px 0px 20px 630px;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(230, 233, 57);
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.button:hover
+{
+    color:rgb(230, 233, 57);
+    background-color:crimson;
+}
+.data
+{
+    display:inline-flex;
+    height: 300px;
+    width:400px;
+    color: black;
+    font-size: 1rem;
+    align-items: center;
+    border-radius: 30%;
+    margin-bottom: 20px;
+    background-color: thistle;
+    flex-direction: row;
+    margin-right: 60px;
+    margin-left: 30px;
+
+}
+
+
+.box h2{
+
+    margin-left:610px;
+    font-size: 1.5rem;
+    color:thistle;
+}
+.name{
+  margin-left: 15%;
+  position: relative;
+
+}
+img{
+  margin-left: 10%;
+}
