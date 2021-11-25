@@ -1,0 +1,394 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:content-box;
+}
+html {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	scroll-behavior: smooth;
+}
+p{
+	color:yellowgreen;
+	line-height: 0.03rem;
+	margin-top: 8px;
+	font-weight: 400;
+	font-size:1rem;
+}
+span{
+	color:blue;
+}
+.container{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:500px;	
+    background-color:orange;
+}
+.section-title
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: 0.02cm;
+}
+a
+{
+    text-decoration: none;
+    color:teal;
+}
+
+.heading {
+    text-align:center;
+    color:white;
+    text-transform:uppercase;
+    padding-bottom:3.5rem;
+    font-size:4rem;
+}
+.heading span{
+    color:black;
+    text-transform:uppercase;
+
+}
+#navbar {
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+}
+#navbar .navbar.container
+{
+    width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:70px;	
+    background-color:rgb(34, 33, 33);
+}
+#navbar .name-items ul{
+    list-style: none;
+    display: block;
+    left:55%;
+    right:0%;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+#navbar .name-items li{
+
+    color:white;
+    padding-right: 50px;
+    text-transform: uppercase;
+    font-size: 1.5rem ;
+    font-weight: bolder;
+}
+#navbar .name .mine a
+{
+    position:absolute;
+    color:white;
+    left:3%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+#home .home.container
+{
+    background-position: top center;
+    background-color:teal;
+    width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:500px;	
+}
+.welcome{
+    width:40%;
+    height:50%;
+    display:block;
+    border-radius: 30px;
+    padding-top: 50px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow:10px 10px 10px rgb(73, 72, 72);
+}
+.welcome h1
+{
+   font-size: 50px;
+   color:white;
+   margin-left: 26%;
+   margin-top: 40px;
+   font-weight: bolder;
+   position:relative;
+}
+.welcome h2
+{
+   font-size: 35px;
+   color:white;
+   margin-left: 15%;
+   font-weight: bolder;
+   position:relative;
+}
+#history{
+    color:white;
+    background-color:teal;
+    width:100%;
+	display:block;
+	justify-content:center;
+	align-items:center;
+	height:500px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+#history .row{
+
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+#history .row .image{
+    flex:1 1 45rem;
+}
+#history .row .image img{
+    width:70%;
+    height:60%;
+    margin-left: 30px;
+}
+#history .row .content{
+    flex:1 1 50rem;
+    padding:2rem;
+}
+#history .row .content p{
+    font-size:18px;
+    color:white;
+    padding:1rem 0;
+    line-height:1.8;
+}
+.hisheading{
+    color:teal;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left:650px;
+}
+#governance{
+    background-color:teal;
+    width:100%;
+	display:block;
+	justify-content:center;
+	align-items:center;
+	height:500px;
+    margin-top: 30px;
+    padding-top: 120px;
+}
+#governance .box-container{
+    display: flex;
+    flex-direction:row;
+}
+#governance .box-container .box{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 10px;
+}
+
+#governance .box-container .box img{
+    height: 15rem;
+}
+
+#governance .box-container .box h2{
+    color:white;
+    font-size: 3rem;
+    padding:20px;
+}
+#governance .box-container .box h3{
+    color:white;
+    font-size: 2rem;
+    padding:5px;
+}
+
+
+.govheading{
+    color:teal;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left:650px;
+}
+#touristspot{
+    background-color:teal;
+    width:100%;
+	display:block;
+	justify-content:center;
+	align-items:center;
+	height:500px;
+    margin-top: 40px;
+    padding-top: 120px;
+}
+
+#touristspot .box-container{
+    display: flex;
+    flex-direction: row;
+}
+#touristspot .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);    
+}
+
+#touristspot .box-container .box img{
+    height: 15rem;
+}
+
+#touristspot .box-container .box h2{
+    color:white;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+ .tourheading{
+    color:teal;
+    font-size: 40px;
+    margin-top: 210px;
+    margin-left:650px;
+}
+#celebrity{
+    background-color:teal;
+    width:100%;
+	display:block;
+	justify-content:center;
+	align-items:center;
+	height:500px;
+    margin-top: 40px;
+    padding-top: 120px;
+}
+#celebrity .box-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#celebrity .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);    
+}
+
+#celebrity .box-container .box img{
+    height:15rem;
+}
+
+#celebrity .box-container .box h2 a{
+    font-size: 2rem;
+    padding:1rem 0;
+    color:white;
+}
+.celheading{
+    color:teal;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left:650px;
+}
+
+#footer {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer {
+	min-height: 20px;
+	flex-direction: column;
+	padding-top: 15px;
+}
+#footer .container{
+	width:100%;
+	display:flex;
+    flex-direction:column;
+	height:90px;	
+    background-color:bisque;
+}
+#footer .social-icon {
+	display: flex;
+    flex-direction: row;
+    margin-bottom:10px;
+    
+}
+#footer p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+    color:teal;
+}
+#footer .item {
+	height: 30px;
+	width: 30px;
+}
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+    body{
+        background: var(--bg);
+    }
+    
+    section{
+        padding:2rem 7%;
+    }
+
+    .header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+
+    .navbar .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background:brown;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .navbar .navbar.active{
+        right:0;
+    }
+    .navbar .navbar a{
+        color:var(--black);
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .welcome h1{
+        font-size: 4.5rem;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
+
+
